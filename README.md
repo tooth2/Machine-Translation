@@ -16,5 +16,13 @@
 - 
 ## Approach 
 1. preprocess the data by converting text to sequence of integers. 
+    - tokenize function: returns tokenized input and the tokenized class.
+    - pad function: returns padded input to the correct length.
 2. build several deep learning models for translating the text into French. 
-3. run this models on English test to analyze their performance.
+    - simple_model function: builds a basic RNN model
+    - embed_model function: builds a RNN model using word embedding
+        - The Embedding RNN is trained on the dataset. The Embedding RNN makes a prediction on the training dataset.
+    - bd_model function: builds a bidirectional RNN model
+        - The Bidirectional RNN is trained on the dataset. The Bidirectional RNN makes a prediction on the training dataset.
+    - model_final function: builds and trains a model that incorporates embedding, and bidirectional RNN using the dataset.
+3. run this models on English test to analyze their performance. 
