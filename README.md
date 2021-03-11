@@ -36,8 +36,8 @@
 |Simple basic RNN Model |<img src="/images/rnn.png" width="400"/>|67%/69% | 
 |RNN with Embedding|<img src="/images/embedding.png" width="400" /> | 90%/92%|
 |Bidirectional RNN |<img src="/images/bidirectional.png" width="400" /> |67%/69% |
-|Encoder/Decoder|  | 63%/65%|
-|final(Embedding+BidirectionalRNN+Encoder/Decoder)|Final Model | 93%/95% | 
+|Encoder/Decoder| <img src="/images/encodec.png" width="400" /> | 63%/65%|
+|final(Embedding+BidirectionalRNN+Encoder/Decoder)|<img src="/images/final.png" width="400" /> | 93%/95% | 
 
 ```Encode/Decoder Model 
 ____________________________________________________________________________________________________
