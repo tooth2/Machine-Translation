@@ -26,3 +26,12 @@
         - The Bidirectional RNN is trained on the dataset. The Bidirectional RNN makes a prediction on the training dataset.
     - model_final function: builds and trains a model that incorporates embedding, and bidirectional RNN using the dataset.
 3. run this models on English test to analyze their performance. 
+
+## Result 
+| Model | Network architecture | Train/Validation Accuracy|
+|--|--|--|
+|Simple basic RNN Model |<img src="/images/rnn.png" width="400"/>|67%/69% | 
+|RNN with Embedding|<img src="/images/embedding.png" width="400" /> | 90%/92%|
+|Bidirectional RNN |<img src="/images/bidirectional.png" width="400" /> |67%/69% |
+|Encoder/Decoder| | 63%/65%|
+|final | | | 
